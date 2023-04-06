@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="shortcut icon" href="./sbs.png" type="image/x-icon">
+    
+</head>
+<body>
+    <h1>Ki tenzel al add shop temchi ali ymin fin "Cart" w ghadi tal9a remove </h1>
+    <h2>El Heart habtch tekhdm naarech aleh tkhdmch beraghm code shih!! </h2>
+    <div class="container">
+        <div class="card" id="item1">
+            <img src="./Clavier.jpg" alt="">
+            <div class="title">Clavier Mecha</div>
+            <div>
+                <label>TYPE:</label>
+                <select>
+                    <option>Red</option>
+                    <option>Blue</option>
+                    <option>Brown</option>
+                </select>
+            </div>
+            <button onclick="addToCart(item1)">Add to cart</button>
+            <i  class="fas fa-heart"></i>
+        </div>
+        <div class="card" id="item2">
+            <img src="./Tapis-removebg-preview.png" alt="">
+            <div class="title">Tapis hyperx</div>
+            <div>
+                <label>SIZE:</label>
+                <select>
+                    <option>325 x 260 x 3 cm</option>
+                    <option>800 x 300 x 4 mm</option>
+                    <option>400 x 900 x 4mm</option>
+                </select>
+            </div>
+            <button onclick="addToCart(item2)">Add to cart</button>
+            <a  class="fas fa-heart"></a>
+        </div>
+        <div class="card" id="item3">
+            <img src="./Casque-removebg-preview.png" alt="">
+            <div class="title">Tapis hyperx</div>
+            <div>
+                <label>SIZE:</label>
+                <select>
+                    <option>Red Dragon</option>
+                    <option>T-Dagger</option>
+                    <option>HyperX</option>
+                </select>
+            </div>
+            <button onclick="addToCart(item3)">Add to cart</button>
+            <a  class="fas fa-heart"></a>
+        </div>
+        <div class="card" id="item4">
+            <img src="./ecran-removebg-preview.png" alt="">
+            <div class="title">Tapis hyperx</div>
+            <div>
+                <label>SIZE:</label>
+                <select>
+                    <option>Msi 75hz</option>
+                    <option>Msi 144hz</option>
+                    <option>Msi 165hz</option>
+                </select>
+            </div>
+            <button onclick="addToCart(item4)">Add to cart</button>
+            <a  class="fas fa-heart"></a>            
+            
+        </div>
+        
+    </div>
+    <div class="cart" id="cart">
+        <div class="title">CART</div><hr/>
+        <div id="title"></div>
+    </div>
+</body>
+</html>
